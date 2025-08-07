@@ -66,34 +66,34 @@ function SubjectCards({ selectedTopicData, onSubjectClick }: Props) {
     loadImages();
   }, [selectedTopicData]);
 
-  const CompletionUI: any = () => {
-     return <>
-            <svg className="w-20 h-20 transform translate-x-1 translate-y-1" x-cloak aria-hidden="true">
-              <circle
-                className="text-gray-300"
-                stroke-width="4"
-                stroke="currentColor"
-                fill="transparent"
-                r="25"
-                cx="30"
-                cy="30"
-                />
-              <circle
-                className="text-blue-600"
-                stroke-width="4"
-                stroke-dasharray="circumference"
-                stroke-dashoffset="circumference - percent / 100 * circumference"
-                stroke-linecap="round"
-                stroke="currentColor"
-                fill="transparent"
-                r="25"
-                cx="30"
-                cy="30"
-               />
-            </svg>
-            {/* <span className="absolute text-2xl text-blue-700" x-text="`${percent}%`">Accuracy</span> */}
-          </>
-  }
+  // const CompletionUI: any = () => {
+  //    return <>
+  //           <svg className="w-20 h-20 transform translate-x-1 translate-y-1" x-cloak aria-hidden="true">
+  //             <circle
+  //               className="text-gray-300"
+  //               stroke-width="4"
+  //               stroke="currentColor"
+  //               fill="transparent"
+  //               r="25"
+  //               cx="30"
+  //               cy="30"
+  //               />
+  //             <circle
+  //               className="text-blue-600"
+  //               stroke-width="4"
+  //               stroke-dasharray="circumference"
+  //               stroke-dashoffset="circumference - percent / 100 * circumference"
+  //               stroke-linecap="round"
+  //               stroke="currentColor"
+  //               fill="transparent"
+  //               r="25"
+  //               cx="30"
+  //               cy="30"
+  //              />
+  //           </svg>
+  //           <span className="absolute text-2xl text-blue-700" x-text="`${percent}%`">Accuracy</span>
+  //         </>
+  // }
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
