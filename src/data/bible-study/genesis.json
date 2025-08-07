@@ -1,0 +1,19 @@
+{
+  "topic": "Bible Study",
+  "subject": "Genesis",
+  "concepts": [
+    {
+      "concept": "Creation",
+      "questions": [
+        {
+          "id": "gen-q001",
+          "type": "short",
+          "question": "What did God create on the first day?",
+          "answer": "Light.",
+          "tags": ["creation", "genesis", "bible"],
+          "path": "bible/genesis/creation"
+        }
+      ]
+    }
+  ]
+}

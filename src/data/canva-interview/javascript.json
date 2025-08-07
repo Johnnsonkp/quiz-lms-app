@@ -1,0 +1,206 @@
+{
+  "topic": "Canva Interview",
+  "subject": "JavaScript",
+  "concepts": [
+    {
+      "concept": "ESM",
+      "questions": [
+        {
+          "id": "js001",
+          "type": "short",
+          "question": "What is the difference between default and named exports in JavaScript?",
+          "answer": "Default exports allow a single export per module, named exports allow multiple.",
+          "incorrect_answers": [
+            "Named exports can only be used once per file.",
+            "Default exports are only used with TypeScript.",
+            "There is no difference."
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["esm", "modules"],
+          "path": "canva/javascript/esm"
+        }
+      ]
+    },
+    {
+      "concept": "Closures & Memory",
+      "questions": [
+        {
+          "id": "js002",
+          "type": "short",
+          "question": "Why are closures useful in JavaScript and how can they lead to memory leaks?",
+          "answer": "Closures allow private state but can lead to memory leaks if DOM references are retained unintentionally.",
+          "incorrect_answers": [
+            "Closures cannot retain state.",
+            "They only apply to arrow functions.",
+            "Closures increase performance by default."
+          ],
+          "tags": ["closures", "memory", "performance"],
+          "path": "canva/javascript/closures"
+        }
+      ]
+    },
+    {
+      "concept": "Event Loop & Async",
+      "questions": [
+        {
+          "id": "js003",
+          "type": "short",
+          "question": "In what order will the following be logged: `setTimeout`, `Promise.resolve().then`, and a regular log?",
+          "answer": "Regular log > Promise.then > setTimeout (microtask queue before macrotask)",
+          "incorrect_answers": [
+            "setTimeout > Promise.then > log",
+            "Promise.then > setTimeout > log",
+            "log > setTimeout > Promise.then"
+          ],
+          "tags": ["event loop", "async", "promises"],
+          "path": "canva/javascript/async-eventloop"
+        }
+      ]
+    },
+    {
+      "concept": "Object Methods",
+      "questions": [
+        {
+          "id": "js004",
+          "type": "short",
+          "question": "What’s the difference between `Object.assign()` and spread syntax `{ ...obj }`?",
+          "answer": "`Object.assign()` copies properties and preserves descriptors, while spread is syntactic sugar that may not preserve inheritance or non-enumerables.",
+          "incorrect_answers": [
+            "They are completely identical.",
+            "Spread syntax is only for arrays.",
+            "Object.assign doesn't mutate the target."
+          ],
+          "tags": ["objects", "spread", "assign"],
+          "path": "canva/javascript/objects"
+        }
+      ]
+    },
+    {
+      "concept": "Functional Patterns",
+      "questions": [
+        {
+          "id": "js005",
+          "type": "short",
+          "question": "What is the benefit of using `.map()` over a `for` loop when transforming arrays?",
+          "answer": "`.map()` returns a new array and promotes declarative code, improving readability and composability.",
+          "incorrect_answers": [
+            "`for` loops are faster and more readable.",
+            "`map()` mutates the original array.",
+            "They are equivalent in every scenario."
+          ],
+          "tags": ["functional", "array"],
+          "path": "canva/javascript/array-methods"
+        }
+      ]
+    },
+    {
+      "concept": "Error Handling",
+      "questions": [
+        {
+          "id": "js006",
+          "type": "short",
+          "question": "What’s the purpose of `try...catch` in asynchronous code and how should it be used with `async/await`?",
+          "answer": "It catches errors in `await`ed operations and prevents unhandled promise rejections, wrapping them in a try block.",
+          "incorrect_answers": [
+            "`try...catch` does not work with async code.",
+            "`await` automatically handles all errors.",
+            "Errors only occur in synchronous code."
+          ],
+          "tags": ["error", "async", "await"],
+          "path": "canva/javascript/async-error"
+        }
+      ]
+    },
+    {
+      "concept": "Performance",
+      "questions": [
+        {
+          "id": "js007",
+          "type": "short",
+          "question": "How does debouncing improve performance in event-driven UIs?",
+          "answer": "Debouncing limits the rate a function is called, reducing unnecessary renders or API calls.",
+          "incorrect_answers": [
+            "Debouncing speeds up rendering.",
+            "It caches function outputs automatically.",
+            "It ensures the function runs multiple times rapidly."
+          ],
+          "tags": ["performance", "debounce"],
+          "path": "canva/javascript/performance"
+        }
+      ]
+    },
+    {
+      "concept": "Type Coercion",
+      "questions": [
+        {
+          "id": "js008",
+          "type": "short",
+          "question": "What will the expression `[] + {} === '[object Object]'` evaluate to true?",
+          "answer": "Because `[] + {}` coerces both operands to strings and results in '[object Object]'",
+          "incorrect_answers": [
+            "It returns false because of type mismatch.",
+            "An error is thrown.",
+            "`[] + {}` returns '[object Object][object Object]'"
+          ],
+          "tags": ["coercion", "type"],
+          "path": "canva/javascript/coercion"
+        }
+      ]
+    },
+    {
+      "concept": "Immutability",
+      "questions": [
+        {
+          "id": "js009",
+          "type": "short",
+          "question": "How can you ensure immutability in object state updates?",
+          "answer": "By using spread syntax or utility libraries like Immer to create new objects instead of mutating originals.",
+          "incorrect_answers": [
+            "Use `Object.freeze()` for all updates.",
+            "Mutate directly and call `forceUpdate()`.",
+            "There’s no way to enforce immutability."
+          ],
+          "tags": ["immutability", "objects"],
+          "path": "canva/javascript/state"
+        }
+      ]
+    },
+    {
+      "concept": "Memory Leaks",
+      "questions": [
+        {
+          "id": "js010",
+          "type": "short",
+          "question": "Which pattern can help prevent memory leaks in JavaScript event listeners?",
+          "answer": "Always remove listeners on cleanup using `removeEventListener`, especially in component unmounting.",
+          "incorrect_answers": [
+            "Use global listeners to avoid cleanup.",
+            "Rely on garbage collection only.",
+            "Wrap listeners inside `setTimeout`."
+          ],
+          "tags": ["memory", "events", "performance"],
+          "path": "canva/javascript/memory"
+        }
+      ]
+    },
+    {
+      "concept": "Modules & Scoping",
+      "questions": [
+        {
+          "id": "js011",
+          "type": "short",
+          "question": "What is the main difference between `let`, `const`, and `var` in terms of scoping and hoisting?",
+          "answer": "`let` and `const` are block-scoped and not hoisted to the top like `var`, which is function-scoped and hoisted.",
+          "incorrect_answers": [
+            "`var` is block scoped while `let` and `const` are global.",
+            "`const` variables can be reassigned.",
+            "All three have the same scope but differ in mutability."
+          ],
+          "tags": ["scope", "hoisting"],
+          "path": "canva/javascript/modules-scope"
+        }
+      ]
+    }
+  ]
+}

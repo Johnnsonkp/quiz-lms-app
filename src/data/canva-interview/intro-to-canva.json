@@ -1,0 +1,206 @@
+{
+  "topic": "Canva Interview",
+  "subject": "Intro to Canva",
+  "concepts": [
+    {
+      "concept": "About Canva",
+      "questions": [
+        {
+          "id": "canva001",
+          "type": "multiple",
+          "question": "Who is the CEO of Canva?",
+          "answer": "Melanie Perkins",
+          "incorrect_answers": [
+            "Susan Wojcicki",
+            "Sheryl Sandberg",
+            "Whitney Wolfe Herd"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "leadership"],
+          "path": "canva/company/about"
+        },
+        {
+          "id": "canva002",
+          "type": "multiple",
+          "question": "What is Canva's core mission?",
+          "answer": "To make it simple and enjoyable for anyone to create designs",
+          "incorrect_answers": [
+            "To compete with social media platforms",
+            "To sell stock photography",
+            "To offer AI-based editing services only"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "mission"],
+          "path": "canva/company/about"
+        },
+        {
+          "id": "canva003",
+          "type": "multiple",
+          "question": "Why was Canva created?",
+          "answer": "Because design tools were fragmented and only accessible to pros",
+          "incorrect_answers": [
+            "To create a social media platform",
+            "To provide financial tools to startups",
+            "To sell design templates to agencies"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "origin", "story"],
+          "path": "canva/company/about"
+        },
+        {
+          "id": "canva004",
+          "type": "multiple",
+          "question": "What is Canva's design philosophy today?",
+          "answer": "Integrate the entire design eco-system into one simple page",
+          "incorrect_answers": [
+            "Focus only on mobile design tools",
+            "Create standalone tools for each design purpose",
+            "Support only professional graphic designers"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "vision"],
+          "path": "canva/company/today"
+        },
+        {
+          "id": "canva005",
+          "type": "multiple",
+          "question": "In what year was Canva founded?",
+          "answer": "2012",
+          "incorrect_answers": [
+            "2010",
+            "2014",
+            "2016"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "timeline"],
+          "path": "canva/company/history"
+        },
+        {
+          "id": "canva006",
+          "type": "multiple",
+          "question": "When did Canva officially launch?",
+          "answer": "2013",
+          "incorrect_answers": [
+            "2011",
+            "2012",
+            "2014"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "timeline"],
+          "path": "canva/company/history"
+        },
+        {
+          "id": "canva007",
+          "type": "multiple",
+          "question": "How many employees does Canva have?",
+          "answer": "5000+",
+          "incorrect_answers": [
+            "1000+",
+            "2500+",
+            "10,000+"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "team"],
+          "path": "canva/company/stats"
+        },
+        {
+          "id": "canva008",
+          "type": "multiple",
+          "question": "How many years has Canva been profitable?",
+          "answer": "7 years",
+          "incorrect_answers": [
+            "3 years",
+            "5 years",
+            "10 years"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "finance"],
+          "path": "canva/company/finance"
+        },
+        {
+          "id": "canva009",
+          "type": "multiple",
+          "question": "What is Canva's mission?",
+          "answer": "Empower everyone to design anything, publish anywhere",
+          "incorrect_answers": [
+            "Be the best stock photo platform",
+            "Replace all design agencies",
+            "Become a social media tool"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "mission"],
+          "path": "canva/company/mission"
+        },
+        {
+          "id": "canva010",
+          "type": "multiple",
+          "question": "Which of the following is one of Canva’s core values?",
+          "answer": "Make complex things simple",
+          "incorrect_answers": [
+            "Profit over people",
+            "Only hire experts",
+            "Move fast and break things"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "values"],
+          "path": "canva/company/values"
+        },
+        {
+          "id": "canva011",
+          "type": "multiple",
+          "question": "What kind of structure does Canva use to organize its people?",
+          "answer": "Goal-focused structure",
+          "incorrect_answers": [
+            "Traditional hierarchy",
+            "Freelance-based",
+            "Flat with no teams"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "team"],
+          "path": "canva/company/structure"
+        },
+        {
+          "id": "canva012",
+          "type": "multiple",
+          "question": "Which of these is NOT one of Canva’s values?",
+          "answer": "Disrupt the competition at all costs",
+          "incorrect_answers": [
+            "Crazy big goals and make them happen",
+            "Be a good human",
+            "Pursue excellence"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "values"],
+          "path": "canva/company/values"
+        },
+        {
+          "id": "canva013",
+          "type": "multiple",
+          "question": "Which best describes Canva's current growth status?",
+          "answer": "One of the fastest-growing software companies",
+          "incorrect_answers": [
+            "Slow and steady growth",
+            "Mostly stagnant in the last 5 years",
+            "Shrinking due to market pressure"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["canva", "growth"],
+          "path": "canva/company/stats"
+        }
+      ]
+    }
+  ]
+}

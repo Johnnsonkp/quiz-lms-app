@@ -1,0 +1,84 @@
+[
+  {
+    "topic": "Canva Interview",
+    "subjects": [
+      {
+        "subject": "JavaScript",
+        "concepts": [
+          {
+            "concept": "ESM",
+            "questions": [
+              {
+                "id": "q001",
+                "type": "short",
+                "question": "What is the difference between default and named exports?",
+                "answer": "Default exports allow a single export per module, named exports allow many.",
+                "tags": ["esm", "modules"],
+                "path": "canva/javascript/esm"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Bible Study",
+    "subjects": [
+      {
+        "subject": "Genesis",
+        "concepts": [
+          {
+            "concept": "ESM",
+            "questions": [
+              {
+                "id": "q001",
+                "type": "short",
+                "question": "What is the difference between default and named exports?",
+                "answer": "Default exports allow a single export per module, named exports allow many.",
+                "tags": ["esm", "modules"],
+                "path": "canva/javascript/esm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "Exodus",
+        "concepts": [
+          {
+            "concept": "ESM",
+            "questions": [
+              {
+                "id": "q001",
+                "type": "short",
+                "question": "What is the difference between default and named exports?",
+                "answer": "Default exports allow a single export per module, named exports allow many.",
+                "tags": ["esm", "modules"],
+                "path": "canva/javascript/esm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subject": "Scriptures on discipleship",
+        "concepts": [
+          {
+            "concept": "ESM",
+            "questions": [
+              {
+                "id": "q001",
+                "type": "short",
+                "question": "What is the difference between default and named exports?",
+                "answer": "Default exports allow a single export per module, named exports allow many.",
+                "tags": ["esm", "modules"],
+                "path": "canva/javascript/esm"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

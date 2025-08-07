@@ -13,7 +13,7 @@ function LandingPage({setPage}: { setPage: (page: string) => void }) {
       </div>
       <h1>Quiz App</h1>
       <div className="card">
-        <button onClick={() => setPage("quiz")}>
+        <button onClick={() => setPage("dashboard")}>
           Go to Quiz
         </button>
         <p>
