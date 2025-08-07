@@ -76,13 +76,13 @@ export default function Dashboard() {
           openSidebar || !isMobile ? 'w-64' : 'w-0 hidden'
         }`}
       >
-        <div className="p-4 flex items-center justify-between border-b">
+        <a href="/" className="p-4 flex items-center justify-between border-b">
           <h1
             className={`!text-lg font-bold text-green-600 transition-opacity duration-300 ${
               openSidebar || !isMobile ? 'opacity-100 block' : 'opacity-0 hidden'
             }`}
           >
-            Quizes
+            Quiz LMS
           </h1>
           <button
             onClick={() => setOpenSidebar(!openSidebar)}
@@ -92,7 +92,7 @@ export default function Dashboard() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
             </svg>
           </button>
-        </div>
+        </a>
 
         <nav className="py-4">
           <ul className="space-y-2">

@@ -19,7 +19,7 @@ function QuizCard({ question, selectedAnswer, onAnswerSelect, showResult }: Quiz
     setShuffledAnswers(shuffled);
   }, [question.id]);
 
-  const isCorrect = selectedAnswer === question.answer;
+  // const isCorrect = selectedAnswer === question.answer;
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-md border">
