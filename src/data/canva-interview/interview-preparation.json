@@ -1,0 +1,210 @@
+{
+  "topic": "Canva Interview",
+  "subject": "Interview Preparation",
+  "concepts": [
+    {
+      "concept": "Personal Background",
+      "questions": [
+        {
+          "id": "int001",
+          "type": "long",
+          "question": "Tell us about yourself and what led you to software engineering.",
+          "answer": "Structure your answer to include: 1) Brief background (education or prior work), 2) Transition into tech (what inspired you), 3) Recent experiences (freelance, junior developer roles), 4) Technologies you love working with, 5) Why Canva aligns with your goals.",
+          "incorrect_answers": [],
+          "image": "",
+          "code_block": "",
+          "tags": ["intro", "personal"],
+          "path": "canva/interview/personal"
+        },
+        {
+          "id": "int002",
+          "type": "long",
+          "question": "What’s a project you’re most proud of and why?",
+          "answer": "Pick one: TechMeet or CodeSandbox clone. Structure: 1) Problem you solved, 2) Tech stack used, 3) Role and ownership, 4) Challenges and how you overcame them, 5) Impact or results.",
+          "incorrect_answers": [],
+          "image": "",
+          "code_block": "",
+          "tags": ["project", "experience"],
+          "path": "canva/interview/personal"
+        },
+        {
+          "id": "int003",
+          "type": "long",
+          "question": "How do you stay up to date with modern frontend practices?",
+          "answer": "Mention blogs (e.g. CSS-Tricks), documentation (React, Next.js), YouTube channels, following experts on Twitter/LinkedIn, building side projects, and contributing to open source.",
+          "incorrect_answers": [],
+          "image": "",
+          "code_block": "",
+          "tags": ["learning", "growth"],
+          "path": "canva/interview/personal"
+        }
+      ]
+    },
+    {
+      "concept": "Technical Skills",
+      "questions": [
+        {
+          "id": "int004",
+          "type": "multiple",
+          "question": "Which frontend framework are you most experienced with?",
+          "answer": "React",
+          "incorrect_answers": [
+            "Vue",
+            "Svelte",
+            "Angular"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["frontend", "framework"],
+          "path": "canva/interview/technical"
+        },
+        {
+          "id": "int005",
+          "type": "multiple",
+          "question": "Which database technology have you used in your full-stack projects?",
+          "answer": "MySQL",
+          "incorrect_answers": [
+            "Firebase",
+            "Cassandra",
+            "DynamoDB"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["database", "backend"],
+          "path": "canva/interview/technical"
+        },
+        {
+          "id": "int006",
+          "type": "multiple",
+          "question": "What backend framework have you used with Python?",
+          "answer": "Flask",
+          "incorrect_answers": [
+            "Django",
+            "FastAPI",
+            "Pyramid"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["backend", "python"],
+          "path": "canva/interview/technical"
+        },
+        {
+          "id": "int007",
+          "type": "multiple",
+          "question": "What tech stack was used for your TechMeet project?",
+          "answer": "Next.js, Flask, OpenAI API, MySQL",
+          "incorrect_answers": [
+            "React, Firebase, Python, MongoDB",
+            "Vue, Django, PostgreSQL",
+            "Angular, Express, MongoDB"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["project", "stack"],
+          "path": "canva/interview/projects"
+        },
+        {
+          "id": "int008",
+          "type": "long",
+          "question": "How do you approach performance optimization in frontend apps?",
+          "answer": "Structure: 1) Identifying bottlenecks using Chrome DevTools/Lighthouse, 2) Techniques: lazy loading, code splitting, image optimization, memoization, 3) Tools like Webpack or Vite, 4) Example from project.",
+          "incorrect_answers": [],
+          "image": "",
+          "code_block": "",
+          "tags": ["performance", "frontend"],
+          "path": "canva/interview/technical"
+        },
+        {
+          "id": "int009",
+          "type": "long",
+          "question": "Tell us about a time you had to work cross-functionally (e.g., with designers or QA).",
+          "answer": "Mention working with designers at Myer or in freelance. Structure: 1) Situation, 2) Collaboration process, 3) How you communicated requirements or gave feedback, 4) Outcome.",
+          "incorrect_answers": [],
+          "image": "",
+          "code_block": "",
+          "tags": ["collaboration", "soft skills"],
+          "path": "canva/interview/teamwork"
+        },
+        {
+          "id": "int010",
+          "type": "multiple",
+          "question": "Which testing tools have you used for React apps?",
+          "answer": "Jest, React Testing Library",
+          "incorrect_answers": [
+            "Mocha, Jasmine",
+            "QUnit, Enzyme",
+            "None"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["testing", "react"],
+          "path": "canva/interview/testing"
+        },
+        {
+          "id": "int011",
+          "type": "long",
+          "question": "How do you ensure your code is accessible and inclusive?",
+          "answer": "Structure: 1) Use semantic HTML, 2) Follow WCAG guidelines, 3) Use tools like Axe and Lighthouse, 4) Test with keyboard and screen readers, 5) Collaborate with design to ensure UX inclusivity.",
+          "incorrect_answers": [],
+          "image": "",
+          "code_block": "",
+          "tags": ["accessibility", "frontend"],
+          "path": "canva/interview/technical"
+        }
+      ]
+    },
+    {
+      "concept": "Canva Culture & Fit",
+      "questions": [
+        {
+          "id": "int012",
+          "type": "long",
+          "question": "Why do you want to work at Canva?",
+          "answer": "Structure: 1) Canva’s mission resonates (empower everyone to design anything), 2) You admire their tech stack and scale, 3) You value their culture and values (e.g., 'pursue excellence', 'be a good human'), 4) You see opportunities for growth.",
+          "incorrect_answers": [],
+          "image": "",
+          "code_block": "",
+          "tags": ["culture", "fit"],
+          "path": "canva/interview/motivation"
+        },
+        {
+          "id": "int013",
+          "type": "long",
+          "question": "Which of Canva’s values resonates most with you and why?",
+          "answer": "Pick one: e.g., 'Empower others' or 'Make complex things simple'. Structure: 1) Explain why it matters to you, 2) Provide a personal or professional example where you embodied that value.",
+          "incorrect_answers": [],
+          "image": "",
+          "code_block": "",
+          "tags": ["values", "culture"],
+          "path": "canva/interview/values"
+        },
+        {
+          "id": "int014",
+          "type": "multiple",
+          "question": "Which of the following is a Canva company value?",
+          "answer": "Pursue excellence",
+          "incorrect_answers": [
+            "Think small and safe",
+            "Code fast, break fast",
+            "Prioritize profits over people"
+          ],
+          "image": "",
+          "code_block": "",
+          "tags": ["culture", "values"],
+          "path": "canva/interview/values"
+        },
+        {
+          "id": "int015",
+          "type": "long",
+          "question": "How do you handle feedback and continuous improvement?",
+          "answer": "Structure: 1) Acknowledge importance of feedback, 2) Example of receiving and applying feedback, 3) Tools or rituals you use (e.g., retros, self-review), 4) Growth mindset.",
+          "incorrect_answers": [],
+          "image": "",
+          "code_block": "",
+          "tags": ["feedback", "growth"],
+          "path": "canva/interview/soft-skills"
+        }
+      ]
+    }
+  ]
+}

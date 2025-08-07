@@ -78,11 +78,11 @@ export default function Dashboard() {
       >
         <a href="/" className="p-4 flex items-center justify-between border-b">
           <h1
-            className={`!text-lg font-bold text-green-600 transition-opacity duration-300 ${
+            className={`!text-lg font-bold text-gray-600 transition-opacity duration-300 ${
               openSidebar || !isMobile ? 'opacity-100 block' : 'opacity-0 hidden'
             }`}
           >
-            Quiz LMS
+            LearnNest
           </h1>
           <button
             onClick={() => setOpenSidebar(!openSidebar)}
@@ -154,7 +154,7 @@ export default function Dashboard() {
         {!selectedTopic && activeSection === 'dashboard' && (
           <section className="space-y-6">
             <header>
-              <h1 className="text-left !text-lg font-bold text-gray-800">Welcome Back, John Doe!</h1>
+              <h1 className="text-left !text-lg font-bold text-gray-800">Welcome Back!</h1>
               <p className="text-left text-gray-600">Here's what's happening with your quiz journey today.</p>
             </header>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

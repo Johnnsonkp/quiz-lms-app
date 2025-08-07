@@ -4,7 +4,9 @@ export const loadAllQuizData = async () => {
   const quizFiles = [
     { topic: 'canva-interview', subject: 'javascript' },
     { topic: 'canva-interview', subject: 'intro-to-canva' },
-    { topic: 'bible-study', subject: 'genesis' }
+    { topic: 'canva-interview', subject: 'interview-preparation' },
+    { topic: 'canva-interview', subject: 'frontend-engineering' },
+    { topic: 'bible-study', subject: 'genesis' },
   ];
 
   const allQuizData = [];

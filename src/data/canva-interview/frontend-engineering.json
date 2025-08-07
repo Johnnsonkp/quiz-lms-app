@@ -1,0 +1,126 @@
+{
+  "topic": "Canva Interview",
+  "subject": "Frontend Engineering",
+  "concepts": [
+    {
+      "concept": "React and TypeScript",
+      "questions": [
+        {
+          "id": "fe001",
+          "type": "multiple",
+          "question": "What is the primary benefit of using TypeScript with React?",
+          "answer": "It provides static type checking for props, state, and components.",
+          "incorrect_answers": [
+            "It makes your app faster by default.",
+            "It replaces the need for unit testing.",
+            "It automatically converts JSX to HTML."
+          ],
+          "tags": ["typescript", "react"],
+          "path": "canva/frontend/typescript"
+        },
+        {
+          "id": "fe002",
+          "type": "multiple",
+          "question": "Which of the following correctly defines a functional React component using TypeScript?",
+          "answer": "const Button: React.FC<Props> = ({ label }) => { return <button>{label}</button>; };",
+          "incorrect_answers": [
+            "function Button<Props>({ label }) { return <button>{label}</button>; }",
+            "const Button = ({ label }: string) => { return <button>{label}</button>; };",
+            "React.component<Button>(props => <button>{props.label}</button>)"
+          ],
+          "tags": ["typescript", "react"],
+          "path": "canva/frontend/typescript"
+        },
+        {
+          "id": "fe003",
+          "type": "multiple",
+          "question": "What hook is used to memoize expensive calculations in React?",
+          "answer": "useMemo",
+          "incorrect_answers": [
+            "useCallback",
+            "useEffect",
+            "useReducer"
+          ],
+          "tags": ["react", "hooks"],
+          "path": "canva/frontend/react/hooks"
+        },
+        {
+          "id": "fe004",
+          "type": "multiple",
+          "question": "What does React’s `useCallback` hook help with?",
+          "answer": "It memoizes a function reference to prevent unnecessary re-renders.",
+          "incorrect_answers": [
+            "It caches API calls inside useEffect.",
+            "It delays rendering until a callback is resolved.",
+            "It runs a function only after a delay."
+          ],
+          "tags": ["react", "performance"],
+          "path": "canva/frontend/react/hooks"
+        },
+        {
+          "id": "fe005",
+          "type": "multiple",
+          "question": "In a large React app, what’s a common pattern to manage global state?",
+          "answer": "Using Context API or a state management library like Redux or Zustand.",
+          "incorrect_answers": [
+            "Passing props through all component levels.",
+            "Declaring state variables globally.",
+            "Using sessionStorage instead of state."
+          ],
+          "tags": ["react", "state management"],
+          "path": "canva/frontend/react/state"
+        },
+        {
+          "id": "fe006",
+          "type": "long",
+          "question": "How do you structure a scalable React project and manage its component hierarchy?",
+          "answer": "Mention organizing files by feature/domain, using atomic or modular component design, keeping shared components and types centralized, separating business logic and UI, and leveraging TypeScript interfaces for consistent data contracts.",
+          "tags": ["architecture", "react"],
+          "path": "canva/frontend/project-structure"
+        },
+        {
+          "id": "fe007",
+          "type": "long",
+          "question": "Describe how you handle error boundaries in a React + TypeScript app.",
+          "answer": "Mention creating an `ErrorBoundary` class component using `componentDidCatch`, wrapping critical parts of the UI, and optionally logging errors to a monitoring service like Sentry. Explain using fallback UI for graceful degradation.",
+          "tags": ["react", "typescript", "errors"],
+          "path": "canva/frontend/error-handling"
+        },
+        {
+          "id": "fe008",
+          "type": "multiple",
+          "question": "Which feature is NOT supported by React Server Components (RSC)?",
+          "answer": "Managing client-side interactivity directly",
+          "incorrect_answers": [
+            "Reducing bundle size",
+            "Fetching data server-side",
+            "Streaming HTML from the server"
+          ],
+          "tags": ["react", "performance"],
+          "path": "canva/frontend/react/server"
+        },
+        {
+          "id": "fe009",
+          "type": "long",
+          "question": "How do you ensure type safety in forms built with React and TypeScript?",
+          "answer": "Explain using tools like `React Hook Form` with custom TypeScript interfaces, `zod` or `Yup` for schema validation, avoiding `any`, and extracting types from APIs or backend contracts.",
+          "tags": ["typescript", "forms"],
+          "path": "canva/frontend/typescript/forms"
+        },
+        {
+          "id": "fe010",
+          "type": "multiple",
+          "question": "What’s a key benefit of using Next.js with TypeScript for frontend applications?",
+          "answer": "It enables server-side rendering with built-in TypeScript support and fast routing.",
+          "incorrect_answers": [
+            "It removes the need for Node.js.",
+            "It only supports static sites.",
+            "It doesn’t work with React."
+          ],
+          "tags": ["nextjs", "typescript"],
+          "path": "canva/frontend/frameworks"
+        }
+      ]
+    }
+  ]
+}
